@@ -1,0 +1,166 @@
+header {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    border: 10px solid gold;
+    border-style: double;
+}
+
+header p {
+    margin-left: 260px;
+}
+
+body {
+    background-color: black;
+    color: gold;
+    font-size: 15px;
+    letter-spacing: 1.5Spx;
+}
+
+nav {
+    padding: 20px;
+    color: gold;
+    float: right;
+}
+
+nav a {
+    color: gold;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.profile-pic {
+    display: flex;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    height: auto;
+    max-width: 300px;
+    border: 1px solid gold;
+}
+
+.about-me-link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.about-me {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.about-me h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background-color:rgb(4, 203, 248);
+    border: 3px solid gold;
+}
+
+.about-me p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    background-color:rgb(4, 203, 248);
+    border: 3px solid gold;
+}
+
+.my-work {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-work figure {
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    border-radius: 50%;
+}
+
+.my-work .project-1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-work .project-2,
+.project-3 {
+    display: inline;
+}
+
+.my-work figcaption {
+    text-align: center;
+}
+
+.my-work a:link, .my-work a:visited {
+    background-color: gold;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border-image: auto;
+    border-radius: 10%;
+}
+  
+.my-work a:hover, .my-work a:active {
+    background-color: rgb(4, 203, 248);
+}
+
+.contact {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    background-color: gold;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.button-text {
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-text {
+    text-decoration:wavy;
+    color: purple;
+}
+
+.link-text:hover {
+    color: rgb(4, 203, 248);
+    font-weight: bold;
+}
